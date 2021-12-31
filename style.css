@@ -1,9 +1,97 @@
 body {
     font-family: 'Varela Round', sans-serif;
+    margin: 0px;
 }
 h1 {
     font-size: 50px;
 }
-.araf-style {
-    color: rgba(189, 110, 58, 0.897);
+h2 {
+    font-size: 40px;
+}
+p {
+    color: rgb(88, 82, 82);
+}
+.orange-style {
+    color: rgb(218, 171, 69);
+}
+.half_1 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+.half_1 > img {
+    width: 100%;
+}
+.top-banner {
+    /* border: 2px solid red; */
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: 111%;
+}
+section {
+    height: 500px;
+    padding-bottom: 170px;
+}
+.link-button {
+    /* avoiding/canceling the underscore  (defalut underscore)*/
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgba(255, 165, 30, 0.809);
+    background-image: linear-gradient(50deg, rgb(60, 19, 88), rgba(199, 67, 246, 0.904));
+    padding: 10px 19px;
+    border-radius: 12px;
+    /* border: 1px solid rgba(221, 133, 1, 0.809); */
+    color: rgb(255, 255, 255);
+    font-weight: 630;
+}
+a:hover {
+    background-image: linear-gradient(52deg, rgba(246, 67, 67, 0.904), rgb(117, 52, 52));
+}
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-size: 100%; */
+}
+.single-block {
+    box-shadow: 12px 11px 34px grey;
+    border-radius: 12px 16px;
+    height: auto;    
+    background-color: rgba(255, 255, 255, 0.985);
+}
+.exp-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 160px;
+}
+#full-stack {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, rgb(255, 195, 171), rgb(221, 4, 4));
+    border-image-slice: 1;
+    padding: 8px;
+}
+#full-stack:hover{
+    background-color: rgb(254, 250, 255);
+}
+#baby-web {
+    border-left: 8px solid;
+    border-image: linear-gradient(190deg, rgb(59, 59, 182), cyan);
+    border-image-slice: 1;
+    padding: 8px;
+}
+#baby-web:hover {
+    background-color: rgb(254, 250, 255);
+}
+.center {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    background: rgb(255, 247, 247);
 }
